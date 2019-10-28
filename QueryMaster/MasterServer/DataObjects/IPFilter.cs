@@ -73,7 +73,7 @@ namespace QueryMaster.MasterServer
         /// <summary>
         /// Servers that are NOT running a game(AppId)(This was introduced to block Left 4 Dead games from the Steam Server Browser).
         /// </summary>
-        public Game NAppId { get; set; }
+        public int NAppId { get; set; }
         /// <summary>
         /// Servers that are empty. 
         /// </summary>
@@ -97,7 +97,7 @@ namespace QueryMaster.MasterServer
         /// <summary>
         /// Servers that are running game that has mentioned Application Id.
         /// </summary>
-        public Game AppId { get; set; }
+        public int AppId { get; set; }
         /// <summary>
         /// Servers with the mentioned hostname.
         /// </summary>

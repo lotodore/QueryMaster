@@ -51,7 +51,6 @@ namespace QueryMaster.GameServer
         private byte[] RuleChallengeId = null;
         private bool IsPlayerChallengeId;
         private bool IsRuleChallengeId;
-        private Rcon rcon = null;
 
         internal UdpQuery UdpSocket =null;
         internal ConnectionInfo ConInfo = null;
